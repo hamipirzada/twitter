@@ -1,0 +1,207 @@
+* {
+	
+	margin: 0;
+	
+}
+.header {
+	
+	width: 100%;
+	height: 47px;
+	background-color: white;
+	border-bottom: 1px solid silver;
+	
+}
+.header a{
+	
+	font-family: helvetica;
+	font-size: 13px;
+	font-weight: 600;
+	color: #66757f;
+	text-decoration: none;
+	position: relative;
+	padding: 10px;
+	top: 16px;
+	left: 340px;
+	line-height: 2;
+	border-bottom: 1px solid #1c94e0;
+	
+}
+.header a:hover{
+	
+	color: #1c94e0;
+	border-bottom: 2px solid #1c94e0;
+	
+}
+
+.container {
+	
+	background-color: #e6ecf0;
+	width: 100%;
+	height: 704px;
+	
+}
+.login {
+	
+	position: relative;
+	left: 350px;
+	top: 10px;
+	width: 54%;
+	height: 330px;
+	background-color: white;
+	border: 1px solid #DCDCDC;
+	
+}
+table th {
+	
+	font-family: helvetica;
+	font-size: 24px;
+	position: relative;
+	left: 59px;
+	top: 33px;
+	font-weight: bold;	
+}
+table tr td input {
+	
+	position: relative;
+	top: 45px;
+	left: 113px;
+	margin-bottom: 10px;
+	width: 290px;
+	height: 30px;
+	border: 1px solid #E8E8E8;
+	border-radius: 4px;
+	padding: 5px;
+
+	
+}
+.clr {
+	
+	color: #1c94e0;
+	position: relative;
+	
+	
+}
+table tr td input[type="checkbox"] {
+	
+	width: auto;
+	position: relative;
+	top: 60px;
+	left: 125px
+	
+}
+table tr td p{
+	
+	position: relative;
+	top: 24px;
+	left: 222px;
+	font-family: helvetica;
+	font-size: 13.5px
+	
+}
+table tr td a{
+	
+	position: relative;
+	top: 7px;
+	left: 320px;
+	text-decoration: none;
+	color: #1c94e0;
+	font-family: helvetica;
+	font-size: 14px;
+	
+}
+table tr td a:hover {
+	
+	text-decoration: underline;
+	
+}
+table tr td button {
+	
+	position: relative;
+	top: 50px;
+	left: 113px;
+	background-color: #1da1f2;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 50px;
+	font-family: helvetica;
+	font-weight: bold;
+	cursor: pointer;
+	width: 75px;
+	
+}
+table tr td button:hover{
+	
+	background-color: #006dbf;
+	
+}
+.footer {
+	
+	position: relative;
+	top: 30px;
+	height: 104px;
+	background-color: #f5f8fa;
+
+}
+.footer p {
+	
+	position: absolute;
+	padding: 20px;
+	font-family: helvetica;
+	font-size: 14px;
+	color: #657786;	
+	left: 98px;
+	font-weight: 100;
+	
+}
+.footer a {
+	
+	color: #1da1f2;
+	position: relative;
+	padding: 20px;
+	top: 8px;
+	left: 200px;
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 14px;
+	line-height: 2.8
+	
+}
+.footer a:hover {
+	
+	text-decoration: underline;
+	
+} 
+#link {
+	color: #1da1f2;
+	position: relative;
+	padding: 20px;
+	top: 48px;
+	left: 215px;
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 14px;
+		
+}
+@media only screen and (max-width: 600px) {
+  .header a{
+	  display: none;
+  }
+  .header a i{
+	  display: block;
+  }
+  .container.login form{
+	  width: 100%;
+	  height: 500px
+  }
+  .footer{
+	  
+	  width: 100%
+	  
+  }
+}
+@media only screen and (max-width: 1000px) {
+
+	  
+  }
+}
